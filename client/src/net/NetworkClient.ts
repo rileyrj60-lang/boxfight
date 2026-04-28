@@ -4,7 +4,7 @@ import {
   LOBBY_ROOM_NAME,
   ROOM_NAME,
   SERVER_PORT
-} from '@boxfight/shared/constants';
+} from '../shared-constants';
 
 export type WeaponName = 'rifle' | 'sniper' | 'pickaxe';
 export type MatchState = 'waiting' | 'playing' | 'ended';

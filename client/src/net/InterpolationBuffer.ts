@@ -1,4 +1,4 @@
-import { INTERPOLATION_BUFFER_SIZE, INTERPOLATION_DELAY_MS } from '@boxfight/shared/constants';
+import { INTERPOLATION_BUFFER_SIZE, INTERPOLATION_DELAY_MS } from '../shared-constants';
 
 export type RemoteSnapshot = {
   t: number;
