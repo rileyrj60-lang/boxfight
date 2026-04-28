@@ -13,4 +13,5 @@ COPY package.json ./
 COPY shared ./shared
 COPY server ./server
 EXPOSE 2567
-CMD ["npx", "tsx", "server/src/index.ts"]
+WORKDIR /app/server
+CMD ["npx", "tsx", "src/index.ts"]
