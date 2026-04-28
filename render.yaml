@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: boxfight-server
+    runtime: docker
+    rootDir: .
+    dockerfilePath: ./server/Dockerfile
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
